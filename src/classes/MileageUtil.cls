@@ -1,4 +1,5 @@
 public with sharing class MileageUtil {
+	// 変更を加えた
 	static final Integer MAX_MILES_PER_DAY = 500;
 	public static void areMilesAllowed(Mileage__c[] miles){
 		String createdbyId = Userinfo.getUserId();
