@@ -1,5 +1,5 @@
 public class startHereController {
-
+	// さらに変更した
     public PageReference initPageAction() {
         if (this.theXMlDom == null) {
             PageReference homePage= new PageReference('/home/home.jsp');
